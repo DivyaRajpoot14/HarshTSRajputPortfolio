@@ -1,11 +1,11 @@
-import "./App.css";
+import WebRoutes from "./Routes/WebRoutes"
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1 className="bg-pink-300 text-3xl"> Welcome to harsh's portfolio</h1>
-    </>
-  );
+    <div>
+      <WebRoutes />
+    </div>
+  )
 }
 
-export default App;
+export default App

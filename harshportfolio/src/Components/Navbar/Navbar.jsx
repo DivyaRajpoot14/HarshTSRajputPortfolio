@@ -7,9 +7,9 @@ import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between px-4 h-12 bg-white dark:bg-taupe-700 transition-colors duration-300 dark:text-white text-lg font-medium">
+    <div className="flex items-center justify-between px-4 h-12 bg-white  transition-colors duration-300 dark:text-white text-lg font-medium">
       <div className="flex gap-4">
-        <Link to="/">
+        <Link to="/" className="h-10">
           <Home />
         </Link>
         <Link to="/about">
